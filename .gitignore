@@ -1,0 +1,10 @@
+.vscode
+.idea
+main
+logs
+test
+proc_cache
+.DS_Store
+**/.DS_Store
+go.sum
+cmd
