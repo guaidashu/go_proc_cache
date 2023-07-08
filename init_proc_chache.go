@@ -13,7 +13,7 @@ var ProcCache *Group
 // goroutinePoolNumber 协程池数量
 func InitProcCache(goroutinePoolNumber int) {
 	InitGoSafePool(goroutinePoolNumber)
-	// ProcCache = cache.New(5*time.Minute, 10*time.Minute)
+
 	ProcCache = &Group{
 		cache: cache.New(5*time.Minute, 10*time.Minute),
 		lock:  sync.Mutex{},

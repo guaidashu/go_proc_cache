@@ -9,13 +9,17 @@
 ## Usage
       
       go_proc_cache.InitProcCache(100)
+      
       key := "custom key"
       result, _ := go_proc_cache.ProcCache.Get(key, func() (interface{}, error) {
          var data type(any type)
          // do something
       
          return data, nil
-      }, expired(过期时间，例：time.Second*5))
+      }, expired(expired time，example：time.Second*5))
+      if err != nil {
+         log.Println("get cache data err: ", err)
+      }
 
 ## FAQ
 

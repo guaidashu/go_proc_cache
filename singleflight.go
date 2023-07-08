@@ -1,5 +1,4 @@
-// Package singleflight provides a duplicate function call suppression
-// mechanism.
+// Package go_proc_cache provides a duplicate function call suppression
 package go_proc_cache
 
 import (
