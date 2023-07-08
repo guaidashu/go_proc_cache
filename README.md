@@ -2,13 +2,13 @@
 
 ## Installing and Getting started
 
-1. Clone the repository.
+1. Clone the repository. 
 
+       go get github.com/guaidashu/go_proc_cache.git
 
-      go get github.com/guaidashu/go_proc_cache.git
 
 ## Usage
-      
+
       go_proc_cache.InitProcCache(100)
       
       key := "custom key"
