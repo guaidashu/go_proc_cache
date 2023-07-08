@@ -7,9 +7,10 @@
        git clone https://github.com/guaidashu/go_proc_cache.git
 
 ## Usage
-
+      
+      go_proc_cache.InitProcCache(100)
       key := "custom key"
-      reward, _ := proc_cache.ProcCache.Get(key, func() (interface{}, error) {
+      result, _ := go_proc_cache.ProcCache.Get(key, func() (interface{}, error) {
          var data type(any type)
          // do something
       
