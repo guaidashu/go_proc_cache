@@ -4,7 +4,8 @@
 
 1. Clone the repository.
 
-       go get github.com/guaidashu/go_proc_cache.git
+
+      go get github.com/guaidashu/go_proc_cache.git
 
 ## Usage
       
